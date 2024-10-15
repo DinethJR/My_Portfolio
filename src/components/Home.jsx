@@ -15,9 +15,12 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          I am an enthusiastic undergraduate with a
+          go-getter attitude, specializing in computer
+          scienceand passionate about IT. I am
+          seeking an energetic and challenging work
+          environment that will provide a wonderful
+          opportunity for career development.
           </p>
 
           <div>
@@ -39,6 +42,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
+            style={{ width: '476px', height: '476px' }}
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>

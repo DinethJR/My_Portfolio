@@ -8,6 +8,7 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import php from "../assets/php.png"
 
 const Experience = () => {
   const techs = [
@@ -50,8 +51,8 @@ const Experience = () => {
     {
       id: 7,
       src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      title: "Java",
+      style: "shadow-orange-400",
     },
     {
       id: 8,
@@ -59,6 +60,12 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src:php,
+      title: "PHP",
+      style: "shadow-blue-400",
+    }
   ];
 
   return (
@@ -66,6 +73,7 @@ const Experience = () => {
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
+      <br></br>
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
